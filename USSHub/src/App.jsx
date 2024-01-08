@@ -12,6 +12,7 @@ import Chat from "./components/chat";
 import Game from "./components/game";
 import Connect from "./components/connect";
 import Report from "./components/report";
+import News from "./components/news";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path='/login' Component={Login}></Route>
             <Route Component={ProtectedRoute}>
                 <Route path='/' Component={Home}></Route>
+                <Route path='/news' Component={News}></Route>
                 <Route path='/syllabus' Component={Outline}></Route>
                 <Route path='/book' Component={Book}></Route>
                 <Route path='/chat' Component={Chat}></Route>

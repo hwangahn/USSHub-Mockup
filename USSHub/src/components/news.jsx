@@ -1,11 +1,11 @@
 import NavBar from "./navbar"
 
-export default function Home() {
+export default function News() {
     return (
         <>
             <NavBar />
             <div id="content" style={{ width: "100%", height: "100%" }}>
-                <img src="home.png" style={{width: "99%", display: "block", marginLeft: "auto", marginRight: "auto"}} />
+                <img src="news.png" style={{width: "99%", display: "block", marginLeft: "auto", marginRight: "auto"}} />
             </div>
         </>
     )

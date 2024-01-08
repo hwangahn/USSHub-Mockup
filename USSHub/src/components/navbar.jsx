@@ -24,6 +24,11 @@ export default function NavBar() {
                             <img src="usshub-no-text.png" style={{ width: "50px", height: "70px" }} />
                         </Link>
                     </Menu.Item>
+                    <Menu.Item key={"News"}>
+                        <Link to={`/news`}>
+                            <h2>Bảng tin</h2>
+                        </Link>
+                    </Menu.Item>
                     <Menu.Item key={"Syllabus"}>
                         <Link to={`/syllabus`}>
                             <h2>Đề cương</h2>
